@@ -1,0 +1,7 @@
+w = float(input("Width: "))
+l = float(input("Length: "))
+h = float(input("Height: "))
+volume = w * l * h
+area = 2 * ( w * l + w * h + l * h )
+print("Volume:" , volume)
+print("Area:", area)
